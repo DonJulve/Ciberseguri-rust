@@ -45,7 +45,7 @@ fn main() {
     for device in &devices {
         println!("{}", device.name);
     }
-    println!();w
+    println!();
 
     // Verificar que la interfaz proporcionada sea válida
     let device = devices.iter()
